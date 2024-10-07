@@ -1,4 +1,4 @@
-n AI compiler is a specialized type of compiler designed to optimize and translate machine learning models and AI algorithms into efficient code that can run on various hardware platforms. Here are some key aspects of AI compilers:
+An AI compiler is a specialized type of compiler designed to optimize and translate machine learning models and AI algorithms into efficient code that can run on various hardware platforms. Here are some key aspects of AI compilers:
 
 ### 1. **Purpose**
 
