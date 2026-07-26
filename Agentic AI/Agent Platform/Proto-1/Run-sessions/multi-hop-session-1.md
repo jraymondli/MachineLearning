@@ -15,7 +15,9 @@ You are a search agent. Answer the user's query by calling the available primiti
 ```
 
 ```
-For constrained query, you need to extract filters from the queries, and provide the filters to the tools you use. Here is one example of the constrained query "who is moveworks backend system expert with last name wang"
+For constrained query, you need to extract filters from the queries, and provide the filters to the tools you use. 
+Here is one example of the constrained query "who is moveworks backend system expert with last name wang"
+Here you need to filter on moveworks, and filter on last name wang. 
 ```
 
 ### reformalte_query
