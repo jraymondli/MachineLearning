@@ -6,6 +6,90 @@ what is CMDB
 
 ## Fixed
 
+```
+{
+  "nodes": [
+    {
+      "deps": [],
+      "id": "q",
+      "op": "reformulate_query"
+    },
+    {
+      "args": {
+        "corpus": "all"
+      },
+      "deps": [
+        "q"
+      ],
+      "id": "lex",
+      "op": "lexical_retrieval"
+    },
+    {
+      "args": {
+        "corpus": "all"
+      },
+      "deps": [
+        "q"
+      ],
+      "id": "sem",
+      "op": "semantic_retrieval"
+    },
+    {
+      "deps": [
+        "lex",
+        "sem"
+      ],
+      "id": "m",
+      "op": "merge"
+    },
+    {
+      "deps": [
+        "m"
+      ],
+      "id": "f",
+      "op": "featurize"
+    },
+    {
+      "args": {
+        "k": 50
+      },
+      "deps": [
+        "f"
+      ],
+      "id": "cap",
+      "op": "truncate"
+    },
+    {
+      "args": {
+        "method": "bge"
+      },
+      "deps": [
+        "cap"
+      ],
+      "id": "rr",
+      "op": "rerank"
+    },
+    {
+      "deps": [
+        "rr"
+      ],
+      "id": "acl",
+      "op": "filter"
+    },
+    {
+      "args": {
+        "k": 5
+      },
+      "deps": [
+        "acl"
+      ],
+      "id": "top",
+      "op": "truncate"
+    }
+  ],
+  "output": "top"
+}
+```
 
 
 ## LLM-Recipe
