@@ -6,6 +6,8 @@ what is CMDB
 
 ## Fixed
 
+Recipe JSON (Editable)
+
 ```
 {
   "nodes": [
