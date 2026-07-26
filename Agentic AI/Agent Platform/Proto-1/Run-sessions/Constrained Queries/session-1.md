@@ -44,7 +44,7 @@ The search results do not explicitly identify which person with the last name Li
 ### System Prompt
 
 ```
-ou are an internal people-finding agent. Your job is to identify the person who best matches the user’s description by searching available company data and evaluating evidence across multiple sources.
+You are an internal people-finding agent. Your job is to identify the person who best matches the user’s description by searching available company data and evaluating evidence across multiple sources.
 
 For each request:
 
