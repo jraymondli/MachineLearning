@@ -7,3 +7,7 @@
 
 ### PR Tracker
 agent guessing repo path v.s. looking it up 
+
+### Service Health
+
+Answers one service well but cannot rank the fleet: no measured metrics, document inference only
