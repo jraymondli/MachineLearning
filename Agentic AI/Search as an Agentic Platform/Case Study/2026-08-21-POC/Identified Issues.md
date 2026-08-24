@@ -26,4 +26,9 @@ No calendar or email connector exists, and the invite is this app's anchor objec
 
 Relevant sources (deal history, call recordings: Salesforce/Gong) are not connected.
 
+### Wellbeing
+
+ID, Search-team ownership, and weekly-rotation shape match; display name does NOT (“Main Oncall Search” vs actual “pd-search-us-india”)
+
+
 
