@@ -12,3 +12,14 @@ agent guessing repo path v.s. looking it up
 
 Not yet able to rank hundreds of services across the fleet. 
 It currently answers one service well but cannot rank the fleet: no measured metrics, document inference only.
+
+### Meeting Planner 
+
+No calendar or email connector exists, and the invite is this app's anchor object: without it there is nothing to plan from. Transcripts (Gong-class) are also unconnected, which removes the “what was said last time” capability.
+
+### Applicants Screener
+
+* No ATS/requisition source (Greenhouse-class), so neither the applications nor the match space exist. 
+* Running it before the read-side policy layer exists would be wrong even with sources.
+
+
