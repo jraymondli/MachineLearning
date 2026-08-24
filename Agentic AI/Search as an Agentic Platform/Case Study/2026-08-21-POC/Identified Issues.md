@@ -10,4 +10,5 @@ agent guessing repo path v.s. looking it up
 
 ### Service Health
 
-Answers one service well but cannot rank the fleet: no measured metrics, document inference only
+Not yet able to rank hundreds of services across the fleet. 
+It currently answers one service well but cannot rank the fleet: no measured metrics, document inference only.
