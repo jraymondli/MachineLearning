@@ -22,4 +22,8 @@ No calendar or email connector exists, and the invite is this app's anchor objec
 * No ATS/requisition source (Greenhouse-class), so neither the applications nor the match space exist. 
 * Running it before the read-side policy layer exists would be wrong even with sources.
 
+### Sales Battle Card
+
+Relevant sources (deal history, call recordings: Salesforce/Gong) are not connected.
+
 
